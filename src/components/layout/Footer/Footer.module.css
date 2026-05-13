@@ -1,0 +1,63 @@
+.footer {
+    padding: 40px 0 20px;
+}
+
+.footer .inner {
+    margin: 0 auto 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.footer .logo {
+    max-width: 100px;
+    margin-bottom: 30px;
+}
+
+.footer .menu {
+    display: flex;
+    flex-wrap: wrap; /* ← これで折り返し可能に */
+    gap: 12px 32px;  /* ← 行間12px、横間32pxで美しく */
+    justify-content: center;
+}
+
+.footer .menu li {
+    list-style: none;
+    position: relative;
+    padding-right: 20px; /* 区切り線の余白 */
+    font-size: 14px;
+    white-space: nowrap; /* テキストの途中改行を防ぐ */
+}
+
+/* 区切り線 */
+.footer .menu li::after {
+    content: "";
+    width: 1px;
+    height: 14px;
+    background-color: #000;
+    transform: rotate(25deg);
+    position: absolute;
+    top: 2px;
+    right: 8px;
+}
+
+/* 最後の項目は線なし */
+.footer .menu li:last-child::after {
+    content: none;
+}
+
+/* 4つ目の li の前で改行させる */
+.footer .menu li:nth-child(3)::before {
+    content: "";
+    width: 100%;
+    display: block;
+}
+
+/* コピーライト */
+.footer .copyright {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 20px;
+    opacity: 0.7;
+}
