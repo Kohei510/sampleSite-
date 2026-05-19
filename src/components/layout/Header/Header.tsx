@@ -8,7 +8,7 @@ export default function Header() {
     return (
         <header className={styles.header}>
           <h1 className={styles.logo}>
-            <a href="">
+            <a href="/">
                 <img src="/logo2.avif" alt="江本梨園" />
             </a>
           </h1>

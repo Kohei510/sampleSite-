@@ -1,0 +1,136 @@
+import Section from "./components/PearsPageSection";
+import Table from "./components/Table";
+import SeasonChart from "@/components/layout/SeasonChart/SeaconChart";
+
+export default function Page(){
+    return (
+        <>
+        <Section
+            src="/products/スクリーンショット 幸水.png"
+            alt=""
+            title="幸水"
+            description1="「菊水」×「早生幸蔵」を交配して誕生。双方の一字ずつをとって『幸水』と命名されました。"
+            description2="7月下旬～8月中旬頃"
+            description3="シーズン早くから販売が開始される梨で、最も人気の高い梨の一つです。
+                    果肉が緻密で柔らかく、強い甘味があります。日持ちは短く、室温で5日間程度です。"
+        />
+        <Table
+            price5L3kg="￥"
+            price5L5kg="￥"
+            price5L10kg="￥"
+            price4L3kg="￥"
+            price4L5kg="￥"
+            price4L10kg="￥"
+            price3L3kg="￥"
+            price3L5kg="￥"
+            price3L10kg="￥"
+            price2L3kg="￥"
+            price2L5kg="￥"
+            price2L10kg="￥"
+            priceL5kg="￥"
+            priceL10kg="￥"
+        />
+        <Section
+            src="/products/スクリーンショット 豊水.png"
+            alt=""
+            title="豊水"
+            description1="「幸水」×「イ－33」（石井早生×二十世紀）"
+            description2="8月中旬～9月上旬頃"
+            description3="『幸水』より大きくなり、糖度も高い梨です。果汁が多く、甘味と酸味のバランスが良く豊かな味わいを持つ梨で、完熟した豊水は特においしく人気があります。
+                  日持ちは幸水よりは長く、室温で10日間程度です。"
+        />
+        <Table
+            price5L3kg="￥"
+            price5L5kg="￥"
+            price5L10kg="￥"
+            price4L3kg="￥"
+            price4L5kg="￥"
+            price4L10kg="￥"
+            price3L3kg="￥"
+            price3L5kg="￥"
+            price3L10kg="￥"
+            price2L3kg="￥"
+            price2L5kg="￥"
+            price2L10kg="￥"
+            priceL5kg="￥"
+            priceL10kg="￥"
+        />
+        <Section
+            src="/products/スクリーンショット かおり.png"
+            alt=""
+            title="かおり"
+            description1="「新興」×「幸水」"
+            description2="8月下旬頃～9月中旬頃"
+            description3="大きな青梨で、りんごのような香りのする梨です。果肉はやや硬く、シャリシャリとした食感で、甘味が強いです。大きくなるほど甘さが増します。
+                  収穫期間、日持ちが短い品種で、主に直売所で販売されることが多い梨です。"
+        />
+        <Table
+            price5L3kg="￥"
+            price5L5kg="￥"
+            price5L10kg="￥"
+            price4L3kg="￥"
+            price4L5kg="￥"
+            price4L10kg="￥"
+            price3L3kg="￥"
+            price3L5kg="￥"
+            price3L10kg="￥"
+            price2L3kg="￥"
+            price2L5kg="￥"
+            price2L10kg="￥"
+            priceL5kg="￥"
+            priceL10kg="￥"
+        />
+        <Section
+            src="/products/スクリーンショット 秋月.png"
+            alt=""
+            title="秋月"
+            description1="「新興」×「幸水」"
+            description2="8月下旬頃～9月中旬頃"
+            description3="大きな青梨で、りんごのような香りのする梨です。果肉はやや硬く、シャリシャリとした食感で、甘味が強いです。大きくなるほど甘さが増します。
+                  収穫期間、日持ちが短い品種で、主に直売所で販売されることが多い梨です。"
+        />
+        <Table
+            price5L3kg="￥"
+            price5L5kg="￥"
+            price5L10kg="￥"
+            price4L3kg="￥"
+            price4L5kg="￥"
+            price4L10kg="￥"
+            price3L3kg="￥"
+            price3L5kg="￥"
+            price3L10kg="￥"
+            price2L3kg="￥"
+            price2L5kg="￥"
+            price2L10kg="￥"
+            priceL5kg="￥"
+            priceL10kg="￥"
+        />
+        <Section
+            src="/products/スクリーンショット 新高.png"
+            alt=""
+            title="新高"
+            description1="「新興」×「幸水」"
+            description2="8月下旬頃～9月中旬頃"
+            description3="大きな青梨で、りんごのような香りのする梨です。果肉はやや硬く、シャリシャリとした食感で、甘味が強いです。大きくなるほど甘さが増します。
+                  収穫期間、日持ちが短い品種で、主に直売所で販売されることが多い梨です。。"
+        />
+        <Table
+            price5L3kg="￥"
+            price5L5kg="￥"
+            price5L10kg="￥"
+            price4L3kg="￥"
+            price4L5kg="￥"
+            price4L10kg="￥"
+            price3L3kg="￥"
+            price3L5kg="￥"
+            price3L10kg="￥"
+            price2L3kg="￥"
+            price2L5kg="￥"
+            price2L10kg="￥"
+            priceL5kg="￥"
+            priceL10kg="￥"
+        />
+        <SeasonChart />
+        </>
+    )
+}

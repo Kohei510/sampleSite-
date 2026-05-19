@@ -1,0 +1,67 @@
+.season{
+    border-top: dotted 2px #333;
+    margin: 80px 0;
+    padding-top: 50px;
+}
+.sectionTitle{
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 25px;
+    font-weight: 500;
+}
+.seasonTable {
+  position: relative;
+  width: 700px;
+  margin: 0 auto;
+}
+.seasonTable table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+.seasonTable table th,
+.seasonTable table td{
+    border: solid 1px #707070;
+    padding: 10px;
+    height: 60px;
+}
+.seasonTable table th{
+    background-color: #f3f3f3;
+}
+.seasonTable .bar {
+  position: absolute;
+  height: 50px;
+  border-radius: 10px;
+  display: flex;              /* ← 中央寄せの最強セット */
+  align-items: center;        /* ← 縦中央 */
+  justify-content: center;    /* ← 横中央 */
+  color: #333;                /* ← 読みやすい文字色 */
+  font-size: 16px;
+  font-weight: 600;
+  width: calc(100% / 4.5 );
+}
+.bar.kosui {
+    background: #c8e36a;
+    top: 65px;
+    left: calc(100% / 6);
+}
+.bar.hosui {
+    background: #f4c542;
+    top: 125px;
+    left: calc(100% / 2.7);
+}
+.bar.kaori {
+    background-color: #d8f2b0;
+    top: 185px;
+    left: calc(100% / 2.5);
+}
+.bar.akizuki {
+    background-color: #f7c96d;
+    top: 245px;
+    left: calc(100% / 1.65);
+}
+.bar.niitaka {
+    background-color: #d9b15c;
+    top: 305px;
+    left: calc(100% / 1.65);
+}

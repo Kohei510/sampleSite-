@@ -8,9 +8,10 @@ type Props = {
     enTitle: string;
     description: string;
     reverse? :boolean;
+    href: string;
 }
 
-export default function Section({title, enTitle, description, reverse=false, src, alt=""}: Props){
+export default function Section({title, enTitle, description, reverse=false, src, alt="", href}: Props){
     return (
         <section className={styles.section}>
             <div className={`${styles.sectionItem}  ${reverse ? styles.reverse : ""}`}>
@@ -23,7 +24,7 @@ export default function Section({title, enTitle, description, reverse=false, src
                         <span className={styles.en}>{enTitle}</span>
                     </h2>
                     <p className={styles.description} dangerouslySetInnerHTML={{ __html: description }} />
-                    <Button href="">詳細を見る</Button>
+                    <Button href={href}>詳細を見る</Button>
                 </div>
             </div>
         </section>

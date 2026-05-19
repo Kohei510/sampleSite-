@@ -1,0 +1,28 @@
+.pears{
+    margin: 50px auto 120px;
+}
+.sectionTitle{
+    border-bottom: dotted 2px #333;
+    margin-bottom: 30px;
+    font-size: 25px;
+    font-weight: 500;
+}
+.sectionItem{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+.sectionItem .img{
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+    margin-right: 50px;
+}
+.sectionItem .text dt{
+    font-size: 22px;
+    font-weight: 400;
+}
+.sectionItem .text dd{
+    margin-bottom: 20px;
+}
