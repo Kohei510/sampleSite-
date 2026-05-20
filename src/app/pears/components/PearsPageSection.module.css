@@ -1,5 +1,5 @@
 .pears{
-    margin: 50px auto 120px;
+    margin: 50px auto 80px;
 }
 .sectionTitle{
     border-bottom: dotted 2px #333;
@@ -25,4 +25,29 @@
 }
 .sectionItem .text dd{
     margin-bottom: 20px;
+}
+
+@media screen and (max-width: 767px) {
+    .pears{
+        margin: 50px auto;
+    }
+    .sectionItem{
+        flex-direction: column;
+    }
+    .sectionItem .img{
+        width: 100%;
+    }
+    .sectionItem .img{
+        width: 70%;
+        margin: 50px auto;
+    }
+    .sectionItem .text{
+        width: 100%;
+    }
+    .sectionItem .text dt{
+        font-size: 18px;
+    }
+    .sectionItem .text dd{
+        font-size: 14px;
+    }
 }

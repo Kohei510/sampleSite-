@@ -25,3 +25,18 @@
   line-height: 1.8;
   margin-bottom: 20px;
 }
+
+@media (max-width: 767px) {
+  .sectionItem {
+    flex-direction: column;
+  }
+
+  .stepNumber {
+    font-size: 32px;
+    min-width: auto;
+  }
+
+  .stepTitle {
+    text-align: center;
+  }
+}

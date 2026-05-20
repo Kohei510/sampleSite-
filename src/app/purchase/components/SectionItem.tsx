@@ -13,7 +13,7 @@ export default function SectionItem({children, num, title}: Props) {
             <div className={styles.stepNumber}>{num}</div>
             <div className={styles.stepContent}>
                 <h3 className={styles.stepTitle}>{title}</h3>
-                <p>{children}</p>
+                {children}
             </div>
         </div>
     );

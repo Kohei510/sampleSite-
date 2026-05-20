@@ -65,3 +65,33 @@
     top: 305px;
     left: calc(100% / 1.65);
 }
+
+@media screen and (max-width: 767px) {
+    .seasonTable {
+        width: 300px;
+    }
+    .seasonTable table th,
+    .seasonTable table td{
+        height: 40px;
+        font-size: 14px;
+    }
+    .seasonTable .bar {
+        height: 30px;
+        font-size: 12px;
+    }
+    .bar.kosui {
+        top: 48px;
+    }
+    .bar.hosui {
+        top: 88px;
+    }
+    .bar.kaori {
+        top: 128px;
+    }
+    .bar.akizuki {
+        top: 168px;
+    }
+    .bar.niitaka {
+        top: 208px;
+    }
+}

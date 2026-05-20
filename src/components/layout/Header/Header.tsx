@@ -20,10 +20,10 @@ export default function Header() {
           <div className={`${styles.mask} ${open ? styles.active : ""}`} onClick={() => setOpen(!open)}></div>
           <nav className={`${styles.navi} ${open ? styles.active : ""}`}>
             <ul className={styles.menu}>
-              <li><a href="">江本梨園の梨づくり</a></li>
-              <li><a href="">販売品種</a></li>
-              <li><a href="">ご購入</a></li>
-              <li><a href="">お問い合わせ</a></li>
+              <li><a href="/works">江本梨園の梨づくり</a></li>
+              <li><a href="pears">販売品種</a></li>
+              <li><a href="/purchase">ご購入</a></li>
+              <li><a href="/contact">お問い合わせ</a></li>
             </ul>
           </nav>
         </header>

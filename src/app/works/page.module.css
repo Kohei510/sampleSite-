@@ -86,3 +86,26 @@
     padding-top: 0;
     text-align: center;
 }
+
+@media screen and (max-width: 767px) {
+    .content1{
+        margin-bottom: 50px;
+        flex-direction: column-reverse;
+    }
+    .content1 .imgRight{
+        width: 90%;
+    }
+    .content1 .text{
+        margin: 30px auto;
+        width: 100%;
+    }
+
+    .content2 .gridArea{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .content3 .text{
+        width: 100%;
+    }
+}

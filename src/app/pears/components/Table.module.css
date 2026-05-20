@@ -1,6 +1,7 @@
 .tableWrap{
   overflow-x: auto;
   -webkit-overflow-scrolling: touch; /* ← iPhoneで必須 */
+  margin-bottom: 100px;
 }
 .tableWrap table{
     padding: 0 20px;
@@ -27,4 +28,21 @@
 .tableWrap table tbody td{
     font-size: 18px;
     text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+    .tableWrap table{
+        width: 700px;
+    }
+    .tableWrap table th,
+    .tableWrap table td{
+        font-size: 14px;
+        padding: 10px;
+    }
+    .tableWrap table thead th:nth-child(n+2){
+        width: 150px;
+    }
+    .tableWrap table tbody td{
+        font-size: 14px;
+    }
 }
